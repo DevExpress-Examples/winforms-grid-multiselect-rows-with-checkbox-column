@@ -1,17 +1,18 @@
-﻿Namespace WebStyleRowSelection
-	Friend NotInheritable Class Program
+Imports System
+Imports System.Windows.Forms
 
-		Private Sub New()
-		End Sub
+Namespace WebStyleRowSelection
 
-		''' <summary>
-		''' The main entry point for the application.
-		''' </summary>
-		<STAThread> _
-		Shared Sub Main()
-			Application.EnableVisualStyles()
-			Application.SetCompatibleTextRenderingDefault(False)
-			Application.Run(New Form1())
-		End Sub
-	End Class
+    Friend Module Program
+
+        ''' <summary>
+        ''' The main entry point for the application.
+        ''' </summary>
+        <STAThread>
+        Sub Main()
+            Call Application.EnableVisualStyles()
+            Application.SetCompatibleTextRenderingDefault(False)
+            Call Application.Run(New Form1())
+        End Sub
+    End Module
 End Namespace
