@@ -4,11 +4,16 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# How to use an unbound check box column to select grid rows
+# Data Grid for Windows Forms - How to use an unbound checkbox column to select grid rows
 
+The [Grid View](https://docs.devexpress.com/WindowsForms/3464/controls-and-libraries/data-grid/views/grid-view) in the [Data Grid](https://docs.devexpress.com/WindowsForms/3455/controls-and-libraries/data-grid) control supports a built-in checkbox column for multiple row selection. 
+Set the properties below as follows to enable this checkbox column:
+- [View.OptionsSelection.MultiSelect](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Base.ColumnViewOptionsSelection.MultiSelect) property to `true`.
+- [View.OptionsSelection.MultiSelectMode](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Grid.GridOptionsSelection.MultiSelectMode) property to `CheckBoxRowSelect`.
 
-Starting with version **13.2**, <strong>GridView</strong> provides a built-in checkbox column for multiple row selection. So, to enable this type of multiple row selection in newer versions, it is sufficient to enable the <a href="https://documentation.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Base.ColumnViewOptionsSelection.MultiSelect.property"><strong>GridViewOptionsSelection.MultiSelect</strong></a><strong> </strong>option and then set the <a href="https://documentation.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Grid.GridOptionsSelection.MultiSelectMode.property"><strong>GridView.OptionsSelection.MultiSelectMode</strong></a><strong> </strong>property to the <a href="https://documentation.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Grid.GridMultiSelectMode.enum"><strong>GridMultiSelectMode.CheckBoxRowSelect</strong></a><strong> </strong>value. 
+In v18.1 and later versions, you can sync row selected states with a Boolean field in the bound data source. A checkbox column's bound mode ensures that row selection persists whenever you filter or group grid data. See the following topic for more information: [Multiple Row Selection Using Built-In Check Column and Selection Binding](https://docs.devexpress.com/WindowsForms/16439/controls-and-libraries/data-grid/focus-and-selection-handling/multiple-row-selection-via-built-in-check-column-and-selection-binding).
 
-Starting with version **18.1**, in multiple row selection mode, you can sync row selected states with a Boolean field in the bound data source. The selection binding mode ensures that row selection persists whenever you filter or group grid data. Refer to the [Multiple Row Selection via Built-In Check Column and Selection Binding](https://documentation.devexpress.com/WindowsForms/16439/Controls-and-Libraries/Data-Grid/Focus-and-Selection-Handling/Multiple-Row-Selection-via-Built-In-Check-Column-and-Selection-Binding) help article for more information.
-
-## ***If the built-in CheckBox column does not suit you, we will be happy to find the most appropriate solution for you if you describe your real-life scenario. Just click   [here](https://www.devexpress.com/Support/Center/Question/Create) to submit a ticket to our Support Center.***
+## Documentation
+- [Multiple Row Selection Using Built-In Check Column and Selection Binding](https://docs.devexpress.com/WindowsForms/16439/controls-and-libraries/data-grid/focus-and-selection-handling/multiple-row-selection-via-built-in-check-column-and-selection-binding)
+- [View.OptionsSelection.MultiSelect](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Base.ColumnViewOptionsSelection.MultiSelect)
+- [View.OptionsSelection.MultiSelectMode](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Grid.GridOptionsSelection.MultiSelectMode)
