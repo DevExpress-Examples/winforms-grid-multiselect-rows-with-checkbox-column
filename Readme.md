@@ -7,7 +7,7 @@
 # Data Grid for Windows Forms - How to use an unbound checkbox column to select grid rows
 
 The [Grid View](https://docs.devexpress.com/WindowsForms/3464/controls-and-libraries/data-grid/views/grid-view) in the [Data Grid](https://docs.devexpress.com/WindowsForms/3455/controls-and-libraries/data-grid) control supports a built-in checkbox column for multiple row selection. 
-Set the following properties as follows to enable this checkbox column:
+Set the properties below as follows to enable this checkbox column:
 - [View.OptionsSelection.MultiSelect](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Base.ColumnViewOptionsSelection.MultiSelect) property to `true`.
 - [View.OptionsSelection.MultiSelectMode](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Grid.GridOptionsSelection.MultiSelectMode) property to `CheckBoxRowSelect`.
 
