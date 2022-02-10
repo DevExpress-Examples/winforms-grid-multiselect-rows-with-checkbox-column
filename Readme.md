@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# Data Grid for Windows Forms - How to use an unbound check box column to select grid rows
+# Data Grid for Windows Forms - How to use an unbound checkbox column to select grid rows
 
 The [Grid View](https://docs.devexpress.com/WindowsForms/3464/controls-and-libraries/data-grid/views/grid-view) in the [Data Grid](https://docs.devexpress.com/WindowsForms/3455/controls-and-libraries/data-grid) control supports a built-in checkbox column for multiple row selection. 
 Set the following properties as follows to enable this checkbox column:
